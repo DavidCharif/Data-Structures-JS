@@ -1,0 +1,15 @@
+import Queue from "./Queue.js";
+
+const groceries = new Queue()
+groceries.enqueue("Milk")
+groceries.enqueue("Eggs")
+groceries.enqueue("Bread")
+groceries.enqueue("Butter")
+groceries.enqueue("Coffee")
+groceries.enqueue("Tea")
+groceries.enqueue("Cake")
+groceries.enqueue("Candy")
+groceries.enqueue("Chips")
+groceries.enqueue("Soda")
+groceries.enqueue("Candy")
+groceries.dequeue()
